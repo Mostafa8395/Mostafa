@@ -2,7 +2,8 @@
 import java.util.Scanner;
 
 public class Advanced {
-   /* public static void main(String[] args){
+   /*
+   public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         //for first method
         String sentence=sc.nextLine();
@@ -18,9 +19,8 @@ public class Advanced {
         //for third function
         String w1=sc.nextLine();
         System.out.println(doubleChar(w1));
-
-
-    }*/
+    }
+    */
 
     public static String wordCensor(String sentence, String word, String newWord){
 
