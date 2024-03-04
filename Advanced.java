@@ -2,26 +2,6 @@
 import java.util.Scanner;
 
 public class Advanced {
-   /*
-   public static void main(String[] args){
-        Scanner sc= new Scanner(System.in);
-        //for first method
-        String sentence=sc.nextLine();
-        String w1=sc.nextLine();
-        String w2=sc.nextLine();
-        System.out.println(wordCensor(sentence,w1,w2));
-
-        //for second method
-        String w1=sc.nextLine();
-        String w2=sc.nextLine();
-        System.out.println(normalizingName(w1,w2));
-
-        //for third function
-        String w1=sc.nextLine();
-        System.out.println(doubleChar(w1));
-    }
-    */
-
     public static String wordCensor(String sentence, String word, String newWord){
 
         int space=1;
@@ -42,7 +22,6 @@ public class Advanced {
         }
         return newstr;
     }
-
     public static String normalizingName(String firstName, String lastName){
         firstName=firstName.toLowerCase();
         lastName=lastName.toLowerCase();

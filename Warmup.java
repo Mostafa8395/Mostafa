@@ -1,25 +1,6 @@
 import java.util.Scanner;
 
 public class Warmup {
-/*
-       public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        //for first function
-         String sent=sc.nextLine();
-        int num = sc.nextInt();
-        System.out.println(wordFinder(sent , num));
-
-        //for secomd function
-        String number=sc.nextLine();
-        boolean search=sc.nextBoolean();
-        System.out.println(oddEvenCounter(number,search));
-
-        //for third function
-        String worda=sc.nextLine();
-        String wordb=sc.nextLine();
-        System.out.println(firstWord(worda,wordb));
-        }
-*/
     public static String wordFinder(String sentence, int number) {
         int size=1;
         for(int i=0;i<sentence.length();i++){
@@ -32,7 +13,6 @@ public class Warmup {
             return str[number-1];
         }
     }
-
     public static int oddEvenCounter(String number, boolean searchForEven) {
         int even=0;
         int odd=0;
@@ -49,7 +29,6 @@ public class Warmup {
             return odd;
         }
     }
-
     public static String firstWord(String wordA, String wordB) {
         if(wordB.length()<wordA.length()){
             String t;
