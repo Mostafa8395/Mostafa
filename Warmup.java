@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class Warmup {
-   /* public static void main(String[] args){
+        /*
+       public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         //for first function
          String sent=sc.nextLine();
