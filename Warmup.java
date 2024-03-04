@@ -1,18 +1,24 @@
 import java.util.Scanner;
 
 public class Warmup {
-    public static void main(String[] args){
-     /*   Scanner sc = new Scanner(System.in);
+   /* public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        //for first function
          String sent=sc.nextLine();
         int num = sc.nextInt();
         System.out.println(wordFinder(sent , num));
+
+        //for secomd function
         String number=sc.nextLine();
         boolean search=sc.nextBoolean();
         System.out.println(oddEvenCounter(number,search));
 
+        //for third function
         String worda=sc.nextLine();
         String wordb=sc.nextLine();
         System.out.println(firstWord(worda,wordb));
+
+
     }*/
     public static String wordFinder(String sentence, int number) {
         int size=1;
