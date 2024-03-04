@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Warmup {
-        /*
+
        public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         //for first function
@@ -20,7 +20,8 @@ public class Warmup {
         System.out.println(firstWord(worda,wordb));
 
 
-    }*/
+    }
+
     public static String wordFinder(String sentence, int number) {
         int size=1;
         for(int i=0;i<sentence.length();i++){
